@@ -1,4 +1,93 @@
 
-.header{
-  background: red;
+.header {
+  height: 40px;
+  width: 375px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background: #e994a9;
 }
+
+.header-box {
+  position: relative;
+}
+
+.header-tab {
+  width: 24px;
+  position: absolute;
+  top: 14px;
+  left: 10px;
+}
+
+.header-logo {
+  width: 72px;
+  position: absolute;
+  top: 5px;
+  left: 151px;
+}
+
+.header-sidebar {
+  overflow: hidden;
+  background-color: #e994a9;
+}
+
+.header-sidebar-top {
+  height: 40px;
+  position: relative;
+}
+
+.header-close {
+  width: 24px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+
+.header-sidebar-box{
+  padding: 0px 34px;
+}
+
+.header-sidebar-item{
+  font-size: 15px;
+  color: #ffffff;
+  border-bottom: 1px solid#bfbfbf;
+}
+
+.hot-item{
+  padding:16px 0px ;
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

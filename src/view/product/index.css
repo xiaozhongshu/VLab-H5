@@ -1,0 +1,197 @@
+.banner {
+  padding: 12px 40px;
+}
+
+.header-title {
+  font-size: 21px;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.banner-img {
+  margin-top: 15px;
+}
+
+.product-desc {
+  padding: 12px 0px 14px;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.product-desc h4 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.product-desc p {
+  font-size: 12px;
+  color: #000000;
+  padding-top: 6px;
+}
+
+.configure {
+  padding: 12px 0px;
+}
+
+.configure h4 {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.buy-options {
+  padding-bottom: 12px;
+}
+
+.buy-options-item {
+  width: 100%;
+  height: 30px;
+  padding: 4px 10px;
+  position: relative;
+  border: 1px solid #ebecf0;
+}
+
+.buy-options-item-active{
+  border: 1px solid #ef91aa;
+}
+
+.buy-options-item-num {
+  font-size: 12px;
+  color: #000000;
+  display: inline-block;
+}
+
+.buy-options-item-box {
+  display: inline-block;
+  position: absolute;
+  padding-top: 2px;
+  right: 10px;
+}
+
+.buy-options-item-price {
+  font-size: 12px;
+  color: #000000;
+  text-align: right;
+}
+
+.custom-num-box {
+  position: relative;
+}
+
+.custom-num-box-buy {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.all-price {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  position: absolute;
+  right: 0px;
+  line-height: 24px;
+}
+
+.buy-num-box {
+  position: relative;
+  height: 48px;
+  padding-top: 16px;
+  margin-bottom: 26px;
+}
+
+.buy-num {
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.buy-num-sub {
+  width: 23px;
+  height: 23px;
+  background-color: #ebecf0;
+  text-align: center;
+  float: left;
+}
+
+.buy-num-input {
+  width: 58px;
+  height: 23px;
+  border: 1px solid #ebecf0;
+  text-align: center;
+  float: left;
+}
+
+.buy-num-add {
+  width: 23px;
+  height: 23px;
+  background-color: #ebecf0;
+  text-align: center;
+  float: left;
+}
+
+.purchase-btn {
+  width: 72px;
+  line-height: 28px;
+  height: 28px;
+  background-color: #e994a9;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.mask-bg {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: #000000;
+  opacity: .6;
+  z-index: 9999;
+}
+
+.mask-content {
+  width: 156px;
+  height: 224px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 223px;
+  right: 50px;
+  bottom: 50px;
+  left: 108px;
+  z-index: 10101;
+}
+
+.mask-img{
+  border: 0px;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

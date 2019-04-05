@@ -5,33 +5,7 @@
     <Header :index="3"
             :isShowCategoryLeft="false"></Header>
     <!-- 内容 -->
-    <div class="content-container">
-      <div class="receiving-address">
-        <div class="content-item-desc">
-          <div class="content-item-information">{{memberAddressName}} {{memberAddressMobile}}</div>
-          <div class="content-item-address">{{memberAddressProvince}}{{memberAddressCity}}{{memberAddressArea}}{{memberAddressDetail}}</div>
-        </div>
-        <div class="content-item-default">
-          <b-img class="content-item-icon" src="../../../static/image/tale-001.png"></b-img>
-        </div>
-      </div>
-      <div class="order-desc">
-        <div class="order-desc-price">
-          <div class="order-desc-price-title">商品金额</div>
-          <div class="order-desc-price-text">￥48</div>
-        </div>
-        <div class="cell-line"></div>
-        <div class="order-desc-freight">
-          <div class="order-desc-freight-title">运费</div>
-          <div class="order-desc-price-text">￥0</div>
-        </div>
-      </div>
-      <textarea class="buyer-message" placeholder="请输入买家留言"></textarea>
-      <div class="content-order-footer">
-        <div class="content-order-footer-title">总计：￥48</div>
-        <div class="content-order-footer-btn" @click="handlePay">立即付款</div>
-      </div>
-    </div>
+
     <!-- 底部 -->
     <Footer></Footer>
   </div>
@@ -39,112 +13,7 @@
 </template>
 
 <style scoped>
-  .content-container {
-    width: 100%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: #F5F5F9;
-  }
-  .receiving-address {
-    width: 100%;
-    padding: 15px;
-    display: flex;
-    background-color: #ffffff;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-  }
-  .content-item-desc {
-    flex: 1;
-  }
-  .content-item-information {
-    font-size: 17px;
-    color: #000000;
-  }
-  .content-item-address {
-    font-size: 13px;
-    overflow:hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-  }
-  .content-item-default {
-    text-align: center;
-    align-items: center;
-    padding-top: 10px;
-  }
-  .content-item-icon {
-    width: 12px;
-    height: 8px;
-    margin-bottom: 2px;
-    transform: rotate(270deg);
-  }
-  .order-desc {
-    width: 100%;
-    margin-top: 10px;
-    background-color: #ffffff;
-  }
-  .order-desc-price {
-    padding: 10px;
-    display: flex;
-    border-top: 1px solid #cccccc;
-  }
-  .order-desc-price-title {
-    font-size: 15px;
-    color: #000000;
-    flex: 1;
-  }
-  .order-desc-price-text {
-    text-align: right;
-    font-size: 13px;
-    padding-top: 2px;
-  }
-  .cell-line {
-    border-top: 1px solid #cccccc;
-    margin-left: 10px;
-  }
-  .order-desc-freight {
-    padding: 10px;
-    display: flex;
-    border-bottom: 1px solid #cccccc;
-  }
-  .order-desc-freight-title {
-    font-size: 15px;
-    color: #000000;
-    flex: 1;
-  }
-  .buyer-message {
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    margin-top: 10px;
-    color: #000000;
-    border-left: none;
-    border-right: none;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-  }
-  .content-order-footer {
-    width: 100%;
-    margin-top: 80px;
-    position: relative;
-    padding: 14px 0px 15px 15px;
-    background-color: #ffffff;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
-  }
-  .content-order-footer-title {
-    font-size: 15px;
-    color: #000000;
-  }
-  .content-order-footer-btn {
-    padding: 15px;
-    top: 0px;
-    right: 0px;
-    color: #ffffff;
-    position: absolute;
-    background-color: #e994a9;
-  }
+
 
 </style>
 

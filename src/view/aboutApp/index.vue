@@ -1,16 +1,11 @@
 
 <template>
 
-  <div class="content">
-    <div class="content-text" v-html="articleContent"></div>
-  </div>
 
 </template>
 
 <style scoped>
-  .content {
-    margin-top: -40px;
-  }
+
 </style>
 
 <script>

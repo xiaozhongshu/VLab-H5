@@ -1,0 +1,117 @@
+
+.business {
+  height: 557px;
+  width: 375px;
+  padding-top: 42px;
+  background: url("../../../static/image/share02.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.block-title {
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+}
+
+.block-title-line-left {
+  width: 55px;
+  margin-right: 16px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.block-title-line-right {
+  width: 55px;
+  margin-right: 16px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.block-title-sub {
+  font-size: 12px;
+  color: #020202;
+  text-align: center;
+}
+
+.business-brief {
+  width: 143px;
+  position: absolute;
+  margin-top: 92px;
+  margin-left: 36px;
+  line-height: 15px;
+  font-size: 12px;
+  color: #010101;
+  letter-spacing: 1px;
+}
+
+.middle-banner {
+  margin-top: 7px;
+}
+
+.server {
+  position: relative;
+  padding-top: 42px;
+  margin-top: 7px;
+  background: url("../../../static/image/share04.png");
+}
+
+.server-title {
+  font-size: 12px;
+  text-align: center;
+  color: #010101;
+  margin: 15px 0 25px;
+}
+
+.case {
+  padding-top: 58px;
+}
+
+.case-carousel {
+  margin-bottom: 20px;
+}
+
+.case-item-image {
+  width: 188px;
+  height: 188px;
+  box-shadow: 0 0 10px #e3e3e3;
+  border-radius: 50%;
+}
+
+.case-item-text{
+  color: #1b1b1b;
+  font-size: 12px;
+  text-align: center;
+}
+
+.code{
+  margin-bottom: 20px;
+}
+
+.code-img{
+  width: 200px;
+  margin: 0px 87px;
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

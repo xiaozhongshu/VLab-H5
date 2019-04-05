@@ -1,5 +1,73 @@
 
 <!-- 头部 -->
-<header class="header">
-  头部
-</header>
+<div @touchmove.prevent>
+  <header class="header" >
+    <div class="header-box">
+      <img src="../../../static/image/close.png"
+           @click="handleHidden"
+           v-if="isShow"
+           class="header-close"
+           alt="">
+      <img class="header-tab"
+           @click="handleShow"
+           v-if="!isShow"
+           src="../../../static/image/top-nav.png"
+           alt="">
+      <img class="header-logo"
+           src="../../../static/image/logo-01.jpg"
+           alt="">
+    </div>
+  </header>
+  <div class="header-sidebar"
+       :style="'height:' + windowHeight + 'px'"
+       v-if="isShow">
+    <div class="header-sidebar-top">
+    </div>
+
+    <div class="header-sidebar-box">
+      <div class="header-sidebar-item">
+        <router-link to="/index" class="hot-item">首页</router-link>
+      </div>
+    </div>
+    <div class="header-sidebar-box">
+      <div class="header-sidebar-item">
+        <router-link to="/about" class="hot-item">关于薇嘉</router-link>
+      </div>
+    </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/vlab" class="hot-item">系列产品</router-link>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/tale" class="hot-item">薇嘉故事</router-link>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/share" class="hot-item">分享创业</router-link>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <div @click="handleProduct(1002483230350774273)" to="/product" class="hot-item">爆水丸</div>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <div @click="handleProduct(1035421817968144386)" to="/product" class="hot-item">皛丸子</div>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/antifake" class="hot-item">真伪查询</router-link>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/antifake/index" class="hot-item">查询授权书</router-link>
+    </div>
+  </div><div class="header-sidebar-box">
+    <div class="header-sidebar-item">
+      <router-link to="/join" class="hot-item">加入我们</router-link>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<!--根据'isShow'决定是否显示，分别绑定两个事件，理解这个就好-->

@@ -1,0 +1,138 @@
+.banner-bg-100 {
+  background: #e8ebee;
+}
+
+.header-img {
+  width: 375px;
+  height: 578px;
+}
+
+.VLab {
+  padding: 42px 25px 40px;
+}
+
+.block-title {
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+}
+
+.block-title-line-left {
+  width: 55px;
+  margin-right: 26px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.block-title-line-right {
+  width: 55px;
+  margin-left: 26px;
+  display: inline-block;
+  border-bottom: 1px solid #000000;
+}
+
+.block-title-sub {
+  color: #020202;
+  font-size: 12px;
+}
+
+.VLab-brand {
+  height: 70px;
+  width: 323px;
+  margin: 40px auto 54px;
+  border: 1px dashed #cccccc;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.VLab-brand-title {
+  color: #010101;
+  padding: 10px 0px 4px;
+  font-size: 15px;
+}
+
+.VLab-brand-name {
+  font-size: 15px;
+  color: #e397b7;
+}
+
+.VLab-brand-name span {
+  font-size: 15px;
+  color: #e397b7;
+  padding-right: 10px;
+}
+
+.VLab-text {
+  width: 325px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+.VLab-text-p-bottom {
+  font-size: 12px;
+  color: #1b1b1b;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+.VLab-text-p {
+  font-size: 12px;
+  color: #1b1b1b;
+  line-height: 23px;
+}
+
+.course{
+  padding-top: 58px;
+}
+
+.course-body{
+  padding: 0px 25px 48px;
+}
+
+.list-unstyled{
+  margin-top: 16px;
+}
+
+.head-portrait-img{
+  width: 40px;
+  height: 40px;
+  margin-right: 14px;
+}
+
+.course-body-content{
+  font-size: 10px;
+  color: #000000;
+  display: flex;
+  padding-top: 12px;
+}
+
+.course-body-time{
+  font-size: 10px;
+  color: #1b1b1b;
+  padding-right: 10px;
+}
+
+.course-body-text{
+  font-size: 10px;
+  color: #1b1b1b;
+  letter-spacing:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

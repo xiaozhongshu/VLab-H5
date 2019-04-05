@@ -1,0 +1,70 @@
+
+.body-title {
+  color: #000;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content{
+  width: 260px;
+  margin: 40px auto 0;
+}
+
+.form-group{
+  margin-bottom: 14px;
+}
+
+.form-control{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s
+}
+
+.sublime{
+  width: 120px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin: 20px auto;
+  cursor: pointer;
+  background: #e994a9;
+}
+
+.body-box{
+  margin-top: 26px;
+  margin-bottom: 100px;
+}
+
+.body-box-img{
+  width: 260px;
+  height: 180px;
+  margin: 0 auto;
+  display: block;
+}
+
+.body-box-line{
+  width: 60px;
+  height: 1px;
+  position: absolute;
+  top: 312px;
+  right: 82px;
+  background: #000;
+}
+
+.authorization-number{
+  position: absolute;
+  color: #000;
+  right: -60px;
+  top: -10px;
+}

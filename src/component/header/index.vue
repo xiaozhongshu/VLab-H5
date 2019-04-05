@@ -19,6 +19,7 @@ export default {
   },
   mixins: [],
   data: () => ({
+    isShow: false,
     categoryId: '',
     isShowCategoryRight: false,
     categoryListChildren: [],
@@ -39,8 +40,23 @@ export default {
     this.$root.$on('onLoadProduct', () => {})
   },
   methods: {
+    handleShow: function () {    // 显示
+      this.isShow = true;
+    },
+    handleHidden: function () {    // 隐藏
+      this.isShow = false;
+    },
+
+
+
     headerHeight: function () {
       this.windowHeight = document.body.offsetHeight
+    },
+    handleProduct: function (id) {
+      this.$router.push({path: '/product?productId=' + id});
+      setTimeout(() => {
+        this.$router.go(0);
+      }, 800)
     },
     handleToMember: function () {
       this.$router.push({path: '/member'})
